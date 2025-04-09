@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+  <h1>Insira seus dados pessoais para ser um colaborador da marca -></h1>
+    <h2>Login</h2>
+    <form action="POST">
+        <label for="emailL">Email:</label>
+        <input type="email" name="emailL" id="emailL" placeholder="Digite seu email aqui:"> <br>
+           
+        <label for="senhaL">Senha:</label>
+        <input type="password" name="senhaL" id="senhaL" required  placeholder="Digite sua senha:"> <br>
+
+       
+    </form>
+    <h2>Dados pessoais</h2>
+    <form action="POST">
+        <label for="nameL">Nome:</label>
+        <input type="text" name="nameL" id="nameL" placeholder="Digite seu nome completo:"> <br>
+
+        <label for="adress">Endereço:</label>
+        <input type="text" name="adress" id="adress" placeholder="Digite seu endereço completo:"> <br>
+        
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone:"> <br>
+
+        <label for="CPF">CPF:</label>
+        <input type="text" name="CPF" id="CPF" placeholder="Digite seu CPF:"> <br>
+
+       
+    </form>
+
+    <h2>Nível escolar</h2>
+    <form action="POST">
+        <label>
+            <input type="radio" name="nivelE" value="ensinoE"> Ensino Fundamental
+          </label><br>
+          <label>
+            <input type="radio" name="nivelE" value="ensinoM"> Ensino Médio
+          </label><br>
+          <label>
+            <input type="radio" name="nivelE" value="vermelho"> Ensino Superior
+          </label><br>
+
+          
+    </form>
+
+    <h2>Interesses e hobbies</h2>
+    <form>
+      <label><input type="checkbox" name="hobby" value="leitura"> Leitura</label><br>
+      <label><input type="checkbox" name="hobby" value="musica"> Música</label><br>
+      <label><input type="checkbox" name="hobby" value="esportes"> Esportes</label><br>
+      <label><input type="checkbox" name="hobby" value="jogos"> Jogos</label><br>
+      <label><input type="checkbox" name="hobby" value="culinaria"> Culinária</label><br>
+      <label><input type="checkbox" name="hobby" value="fotografia"> Fotografia</label><br>
+      <label><input type="checkbox" name="hobby" value="viagem"> Viagem</label><br>
+      <label><input type="checkbox" name="hobby" value="tecnologia"> Tecnologia</label><br>
+      <label><input type="checkbox" name="hobby" value="arte"> Arte</label><br>
+      
+    </form> <br>
+
+    <input type="button" value="Enviar formulário">
+
+    <p>Volte para a página incial.</p>
+    <a href="home.html"><img src="imagens/setaRosa.jpg" width="50px" alt=""></a>
+</body>
+</html>

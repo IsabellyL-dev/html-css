@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{margin: 0px;
+min-height: 100vh;}
+header{
+    background-color: #FEBF02;
+    padding: 20px;
+    text-align: center;
+    max-width: 1920px;
+    min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+header>h1{
+    font-family: "Fondamento", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 54px;
+    font-size: 6vw;
+  
+  }
+  header>p{
+    font-family: "Fondamento", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3vw
+  }
+
+  a{color: black;
+    text-decoration: none;}
+  a:hover{text-decoration: underline;}
+  
+ article{   font-family: "Sofia", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    font-size: 4vw;
+   }
+   .paragrafo{ padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+   }
+    
+    div{ box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+        background-size: cover;
+        background-attachment: fixed;}
+        
+    div>p{display: inline-block;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.534);
+        margin-left: 30px;
+        text-shadow: 2px 2px 0px black;
+        }
+
+    div#flor{ 
+        background-image: url('pacote-d012/imagens/background001.jpg');
+        color:white;
+        background-color: rgba(51, 51, 51);
+        background-position: right center;
+       }
+    
+    div#livro{
+        background-image: url('pacote-d012/imagens/background002.jpg');
+        color:white;
+        background-color: rgba(51, 51, 51);
+        background-position: right center;
+        background-size: cover;}
+
+    footer{background-color: #FEBF02;
+           text-align: center;
+        padding: 1px;} 
+        
+       
+       

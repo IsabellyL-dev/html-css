@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5 </title>
+    <link rel="shortcut icon" href="laçofavicon.ico" type="image/x-icon">
+    <style>body{background-color: rgb(199, 171, 192);}</style>
+</head>
+<body><h1>Imagens dinamicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture> 
+        <source media="(max-width:750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt=""></picture>
+        <h1>Agora mais um teste</h1>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/gatoimgp.jpeg" type="image/jpeg">
+            <source media="(max-width:1050px )" srcset="imagens/gatoimgm.jpeg" type="image/jpeg">
+            <img src="imagens/gatoimgg.jpeg" alt="Gatos">
+        </picture>
+        <h1>Agora vamos adicionar audios para seu site</h1>
+        <p>vamos aprender a reproduzir audios em html5</p>
+        
+<audio preload="metadata" autoplay controls>
+   <source src="midias/dreamerssavoir.mp3" type="audio/mpeg">
+   <source src="midias/dreamerssavoirwav.wav" type="audio/wav">
+</audio> 
+
+
+<p>Clique <a href="midias/dreamerssavoir.mp3">aqui</a> para baixar o audio</p>
+</body>
+</html>

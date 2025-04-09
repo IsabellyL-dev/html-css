@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>body{font-family: Arial, Helvetica, sans-serif;}
+        table{ width: 400px;
+             border-collapse: collapse;
+             text-align: center;
+            }
+        td{border: 1px solid black;
+            padding: 8px;
+           vertical-align: top;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <!-- Hierarquia de tabelas simples 
+     table= tabela
+     table row= linha de tabela
+     table header= cabeçalho de tabela
+     table data= dado de tabela-->
+    <table>
+      <tr>
+        <td rowspan="3">A1</td>
+        <td colspan="2">B1</td>
+      
+      </tr>
+      <tr>
+        <td>B2</td>
+        <td>C2</td>
+      </tr>
+      <tr>
+        
+        <td>B3</td>
+        <td>C3</td>
+      </tr>
+      <tr>
+         <td>D1</td>
+         <td>D2</td>
+         <td rowspan="2">D3</td>
+      </tr>
+      <tr>
+        <td>E1</td>
+        <td>E2</td>
+     </tr>
+    </table>
+    <p>va para tabela quatro<a href="tabela04.html">aqui</a></p>
+
+    
+</body>
+</html>

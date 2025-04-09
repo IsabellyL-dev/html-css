@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+header{ background-color: #F5F0CB;
+        padding: 35px;
+        text-align: center;
+        margin: 0px;
+        max-width: 1920px;
+        min-width: 350px;}
+header h1{
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: normal;
+  }
+  header p{font-family: Arial, Helvetica, sans-serif;
+           font-size: medium;
+        }
+   body{background-image: linear-gradient(to right,#9AECF5,#A86A8C); 
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Faz o body ocupar toda a altura da tela */
+        margin: 0;
+    }
+      
+            
+   main{ margin: auto; 
+        width: 55%;
+        max-width: 1920px;
+        min-width: 400px;
+        text-align: center; background-color: #9AECF5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px #F5F0CB;
+        flex: 1; /* Faz o conteúdo crescer e empurrar o footer para baixo */}
+
+.subtitulo{ font-family: "DM Serif Display", serif;}
+
+   div{display: inline-block;
+       width: 250px;
+       height: 250px;
+       border: 1px solid #72A3A8;
+       border-radius: 20px;
+       text-align: center;
+       box-shadow: 2px 2px 10px #F5F0CB;
+       transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona uma transição suave */
+    }
+    div:hover {
+        transform: translateY(-10px); /* Move a div 10px para cima */
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para o efeito de destaque */}
+    .esquerda{background-color: #F5F0CB;}
+   
+    .meio{background-color:#F5B3D7 ;}
+   
+    .direita{background-color:#9AECF5 ;}
+
+    .rede{text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    padding: 0 5px;}
+
+    .imagem{padding: 20px;}
+
+    footer{background-color: #F5F0CB;  padding: 10px 0;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 400px;
+        
+  }

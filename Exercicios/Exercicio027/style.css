@@ -1,0 +1,117 @@
+@charset 'UTF-8';
+:root{
+    --cor01:#F2B6C6;
+    --cor02:#F26D9E;
+    --cor03:#730739;
+    --cor04:#48CAD9;
+    --cor05:#AEEBF2;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    background-image: linear-gradient(to right, #F26D9E, #48CAD9);
+}
+header{
+    font-size: 1em;
+    
+    background-color: var(--cor05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+   
+}
+header > h1{ 
+    text-align: center;
+    font-size: 47px;
+    padding: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+    color: var(--cor02);
+    flex: 0 0 200px;
+
+}
+
+header > menu{
+    margin-top: 15px;  
+    display: flex;
+  
+    
+}
+
+header > menu > a{
+    margin: 5px;
+    background-color: var(--cor02);
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--cor03);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
+    
+    text-decoration: none;
+    
+
+   }
+
+   header > menu > a:hover{
+    background-color: var(--cor01);
+    transform: translate(-2px, -2px);
+    transition: background-color .5s;
+   }
+
+   main{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+
+
+  }
+   article{
+    max-width: 800px;
+ 
+    background-color: var(--cor01);
+    margin-right: 15px ;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+
+   }
+  h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: var(--cor05);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.562);
+  }
+
+   div{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+   }
+   img{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   }
+ 
+  footer{
+    background-color: var(--cor05);
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+

@@ -1,0 +1,128 @@
+@charset 'UTF-8';
+:root{
+    --cor01:#C9ECFF;
+    --cor02:#9E89F2;
+    --cor03:#883DF2;
+    --cor04:#A35EF2;
+    --cor05:#ebeebd;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    background: linear-gradient(to right, #883DF2, #ebeebd);
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+header{background-color: var(--cor01);
+    padding-top:  5px;
+    padding-bottom: 5px ;
+ 
+     
+
+}
+header>h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: var(--cor03);
+    text-shadow: 2px 2px 3px rgba(255, 247, 247, 0.747);
+}
+
+menu{
+    display: none;
+}
+
+span#burg{
+    color: var(--cor03);
+    background-color: var(--cor05);
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+}
+
+span#burg:hover{
+    cursor: pointer;
+    background-color: var(--cor02);
+
+}
+li{ background-color: var(--cor04);
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 247, 247, 0.295);
+    text-align: center;
+
+}
+
+li:hover{
+ 
+    background-color: var(--cor04);
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.829);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor05);
+    
+    
+}
+
+main{
+    flex-grow: 1; /* Ocupa o espaço restante */
+
+    
+  
+}
+
+article{
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    max-width: 95%;
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px var(--cor01);
+
+    
+
+}
+
+article>p{
+    text-align:justify ;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+article>h2{
+    color: var(--cor03);
+    text-shadow: 2px 2px 1px rgba(255, 247, 247, 0.295);
+    padding: 5px;
+}
+
+img#imagem {
+    display: block;
+    margin: 10px auto;  
+    border-radius: 50%;
+    
+}
+
+footer{
+    display: block;
+    background-color: var(--cor01);
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    margin-top: auto; 
+    
+    /* Isso faz ele "grudar" no final */}

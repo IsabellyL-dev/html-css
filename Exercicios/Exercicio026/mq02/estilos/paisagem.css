@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* Somente para telas em paisagem */
+body{
+    background-image: url('../imagens/cev-landscape.jpg');
+
+}
