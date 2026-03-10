@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Cutie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          
+        <h1>Hello Cutie</h1>
+        <nav id="menu">
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Produtos</a></li>
+          
+              <li>
+                <a href="#">Sobre nós ▾</a>
+                <ul class="dropdown-content">
+                  <li><a href="#">Nossa Equipe</a></li>
+                  <li><a href="#">Como começamos</a></li>
+                  <li><a href="#">De onde somos</a></li>
+                </ul>
+              </li>
+          
+              <li>
+                <a href="#">Contatos ▾</a>
+                <ul class="dropdown-content">
+                  <li><a href="#">Redes Sociais</a></li>
+                  <li><a href="#">Telefone</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          
+    </header>
+
+    
+        <main>
+            <p>Olá, cutie! 💕 Deixe-me apresentar nossa marca de acessórios fofos, um projeto apaixonante que nasceu com a missão de transformar o dia a dia das pessoas com um toque irresistível de fofura, alegria e personalidade. Aqui, criamos acessórios encantadores, cheios de charme e delicadeza, pensados para adicionar um brilho especial a qualquer look, seja ele simples ou elaborado. Nosso objetivo é fazer com que cada peça seja mais do que um mero detalhe, mas sim uma forma de expressar quem você é, trazendo leveza e felicidade para os pequenos momentos da vida.</p>
+        </main>
+
+        <footer>
+            © 2025 Hello Cutie 
+        </footer>
+</body>
+</html>
+<script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>

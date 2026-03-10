@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Brasil</title>
+ 
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/webp">
+    <!-- Estilos do font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Import da biblioteca AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Links fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     <!-- Link dos css dividos por sessão -->
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/firstSection.css">
+    <link rel="stylesheet" href="./styles/aboutCharactersSection.css">
+    <link rel="stylesheet" href="./styles/thirdSection.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <!-- Começo do Header -->
+  <header>
+    <img class="logoSanrio" src="images/logoSanrio.png" alt="Logo Sanrio">
+    <nav>
+        <div class="redeIconsWrapper">
+            <p>Sanrio Brasil</p>
+            <ul class="redeIcons">
+                <li>  <a href="https://www.facebook.com/SanrioBrasil/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a> </li>
+                <li>
+                <a href="https://www.instagram.com/sanriobrasil/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/sanriobrasil" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/1054302" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>  
+                </li>
+            </ul>
+
+        </div>
+
+
+         <div class="switchLanguage">
+            <label for="pais"><label>
+            <select class="translate" id="pais" name="pais" required>
+            <option class="optionsTranslate" value="brasil">Brasil</option>
+            <option class="optionsTranslate" value="mexico">México</option>
+            </select>
+         </div>
+          
+
+        <div class="links">
+            <ul>
+                <li><a href="#aboutSanrio">Sobre a Sanrio</a></li>
+                <li><a href="#AboutOurCharacters">Personagens</a></li>
+                <li><a href="#WhereWatchUs">Onde Assistir</a></li>
+                <li><a href="#WhereContactUs">Contato</a></li>
+                <li  class="wherebuy" >
+                <a href="#">Onde comprar <i class="fas fa-caret-down fa-lg"></i></a>
+                <ul class="dropDown2">
+                   <li><a href="https://loja.mercadolivre.com.br/hello-kitty">Mercado Livre</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        </div>
+
+    </nav>
+  </header>
+<!-- Fim do Header -->
+
+<!-- Carrossel de imagens -->
+  <section>
+        <div class="slides">
+            <div class="slidesImages" id="images">
+                <img src="images/carrosselPrimeiro.png" alt="">
+                <img src="images/carrosselSegundo.png" alt="">
+                <img src="images/carrosselTerceiro.png" alt="">
+               
+            </div>
+           
+        </div>
+        <div class="buttons">
+        <ol>
+            <li onclick="mudarSlide(0)" class="active"></li>
+            <li onclick="mudarSlide(1)"></li>
+            <li onclick="mudarSlide(2)"></li>
+        </ol>
+    </div>
+    </section>
+<!-- Fim do carrossel -->
+    
+ <!-- Primeira sessão sobre a sanrio e imagens -->
+<section id="aboutSanrio" class="firstContent" data-aos="fade-up">
+<div  class="aboutSanrio">
+    <h2>Sobre a Sanrio</h2>
+    <p class="content">Sanrio® é uma marca life style global mais conhecida pela personagem Hello Kitty®, que foi criada em 1974 e detentora de muitas outras marcas de personagens amadas, como My Melody™, Kuromi™, LittleTwinStars™, Cinnamoroll™, Pompompurin™, gudetama™, Aggretsuko™, Chococat™, Badtz-Maru™ e Keroppi™.</p>
+    <p class="content">
+        A Sanrio foi fundada com base na filosofia de que um pequeno presente pode trazer felicidade e amizade às pessoas de todas as idades. Desde 1960, esta filosofia tem servido de inspiração para oferecer produtos, serviços e atividades que promovam a comunicação e inspirem experiências únicas aos consumidores em todo o mundo. Hoje, os negócios da Sanrio se estendem à indústria do entretenimento com várias séries de conteúdos, games e parques temáticos.
+    </p>
+</div>
+<div class="oneWorld">
+    <h2>One World, Connecting Smiles.</h2>
+    <p class="content">
+        Com a ideia de “One World, Connecting Smiles”, a Sanrio pretende levar sorrisos a todos as pessoas.
+    </p>
+</div>
+        <div class="hello-kitty-plan">
+            <strong>
+                <p>Presente em mais de 130 países</p>
+            </strong>
+            <strong>
+                <p>A Sanrio está entre as maiores licenciadoras de marcas do mundo.</p>
+            </strong>
+                <img src="images/hello-kitty-plan.png" alt="">
+        </div>
+ </section>
+
+<section class="imgSection" data-aos="fade-up" >
+<div>
+    <div  class="sanrioParks"  data-aos="fade-up">
+        <h2>Parques temáticos no Japão, Malásia e China.</h2>
+        <p>O Sanrio Puroland fica localizado no Japão e é mais conhecido de todos. Destino obrigatório para todos os fãs da marca que viajam para o país.</p>
+    </div>
+    <div class="sanrioParksImg" data-aos="fade-up">
+        <img class="SanrioPuroland" src="images/sanrioPuroland.jpeg" alt="">
+        <img class="LittleTwinStars" src="images/littleTwinStars.png" alt="">
+    </div>
+</div>
+
+ <div class="sanrioStore" data-aos="fade-up">
+    <div class="sanrioStoreTitle">
+        <h2>Lojas próprias em diversos países e nos Universal Studios em Hollywood e Orlando, EUA.</h2>
+    </div>
+    <div>
+        <img class="sanrioStoreImg" src="images/helloKittyStores.jpeg" alt="">
+        <img class="myMelody" src="images/myMelodyImg.png" alt="">
+    </div>
+</div>
+
+ <div class="sanrioCafe" data-aos="fade-up">
+    <div class="sanrioCafeContent">
+        <h2>Restaurantes, Cafés, Hotéis, Karaokês, SPAs, Maternidade, Avião, Trem-bala e muitos outros espaços temáticos de personagens ao redor do mundo.</h2>
+        <p>O Restaurante Eat Asia + Hello Kitty fica localizado em São Paulo, no Brasil, e é o primeiro restaurante da personagem localizado na América Latina.</p>
+    </div>
+    <div>
+        <img class="helloKittyCafe" src="images/helloKittyCafe.jpg" alt="">
+        <img class="kuromiImg" src="images/kuromiImg.png" alt="">
+    </div>
+</div>
+</section>
+<!-- Fim da primeira sessão -->
+
+<!-- Sessão sobre os personagens -->
+    <div class="aboutTitle" id="AboutOurCharacters">
+        <h3>Nossos personagens</h3>
+        <p>Clique nos personagens para descobrir um pouco mais sobre cada um e baixar alguns gifts especiais:</p>
+    </div>
+
+<section class="sanrioCharacters" data-aos="fade-up">
+
+        <div class="carousel-container2">
+        
+             <button class="arrow left" id="prev">&#9204;</button>
+            <div class="carousel-track2" id="carouselTrack2">
+                <div><img src="images/characters/helloKItty.png" alt="Badtz-Maru">
+                <p>Hello Kitty</p></div>
+                <div><img width="100px" src="images/characters/keroppi.png" alt="Chococat">
+                <p>Keroppi</p></div>
+                <div><img src="images/characters/chococat.png" alt="Hello Kitty">
+                <p>Chococat</p></div>
+                <div><img src="images/characters/mymelody.png" alt="My Melody">
+                <p>My Melody</p></div>
+                <div><img src="images/characters/badtzMaru.png" alt="Keroppi">
+                <p>Badtz Maru</p></div>
+                <div><img src="images/characters/poumporin.png" alt="">
+                <p>Pompompurin</p></div>
+                <div><img src="images/characters/kuromi.png" alt="">
+                <p>Kuromi</p></div>
+                <div><img src="images/characters/little twin stars.png" alt="">
+                <p>LittleTwinStars</p></div>
+                <div><img src="images/characters/gudatema.png" alt="">
+                <p>Gudatema</p></div>
+                <div><img src="images/characters/pochacco.png" alt="">
+                <p>Pochacco</p></div>
+                <div><img src="images/characters/agrettsuko.png" alt="">
+                <p>Aggretsuko</p></div>
+                <div><img src="images/characters/cinna.png" alt="">
+                <p>Cinnamoroll</p></div>
+            </div>
+            <button class="arrow right" id="next">&#9205;</button>
+        </div>
+</section>
+<!-- Fim da sessão sobre os personagens -->
+
+<!-- Terceira sessão onde assistir -->
+<section class="whereWatch" data-aos="fade-up" id="WhereWatchUs">
+    <div class="sanrioYoutube" >
+        <h2>Conteúdos Hello Kitty & Amigos</h2>
+        <p>Confira as séries super divertidas de Hello Kitty & Amigos no canal oficial da Hello Kitty no Youtube.
+
+            São diversos episódios e videoclipes para curtir com a garotada.</p>
+           <a href="https://www.youtube.com/hellokittybrasil"><img src="images/sanrioYoutube.png" alt=""></a>
+    </div>
+    <div class="otherContents" >
+        <p>Você também pode ver nosso conteúdo em:</p>
+        <a href="https://apps.apple.com/us/app/playkids-kids-learning-games/id613398383?mt=8"><img src="images/playkidsSanrio.png" alt=""></a>
+        <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"><img src="images/primeVideoSanrio.png" alt=""></a>
+        <a href="https://www.netflix.com/br/"><img src="images/netflixSanrio.png" alt=""></a>
+    </div>
+
+</section>
+<!-- Fim da terceira sessão -->
+
+<!-- Sessão formulario de contato -->
+<section class="contactUs" data-aos="fade-up" id="WhereContactUs">
+    <div class="imgContactUs">
+        <img class="helloKitty" src="images/helloKittyPhone.png" alt="">
+        <img class="agrettsuko" src="images/agrettsukoImg.png" alt="">
+    </div>
+    <div class="titleContactUs" >
+        <h2>Contato</h2>
+        <p>Estamos a disposição para lhe atender. Por favor, preencha o formulário abaixo e selecione o motivo do seu contato:</p>
+    </div>
+    <form action="">
+        <div class="clientInformation" >
+            <div class="form-group">
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" required placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required 
+                placeholder="E-mail">
+              </div>
+        </div>
+          <div class="form-group">
+            <label for="tema"></label>
+            <select id="tema" name="tema" required>
+              <option value="">Tema</option>
+              <option value="fale_conosco">Fale Conosco - Dúvidas, Elogios e Sugestões</option>
+              <option value="licenciamento_comercial">Licenciamento - Comercial</option>
+              <option value="trabalhe_conosco">Trabalhe Conosco</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem"></label>
+            <textarea id="mensagem" name="mensagem"
+            placeholder="Mensagem" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Enviar</button>
+            <img src="images/buttonIcon.png" alt="">
+          </div>
+        </form>
+          </div>
+    </form>
+</section>
+<div class="otherContacts" data-aos="fade-up">
+    <p>Telefone para contato: +55 11 3515-5150</p>
+    <p> Para assuntos relacionados à <strong>Assessoria de Imprensa</strong>, entre em contato com:
+        
+        <strong>Dezoito Comunicação: </strong>thaiane.muniz@dezoitocom.com.br</p>
+</div>
+<!-- Fim da sessão formulario de contato -->
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 SANRIO CO., LTD.</p>
+    
+        <div  class="footerInformation"  >
+            <h5>Recursos</h5>
+            <a href="#">Política de privacidade
+                </a>
+            <a href="#">Termos de uso</a>
+        </div>
+        <div class="footerInformation2" >
+            <h5>Lojistas</h5>
+            <a href="#">Confira onde comprar</a>
+        </div>
+
+    <img src="images/footerImg.png" alt="">
+</footer>
+
+<!-- link para o JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

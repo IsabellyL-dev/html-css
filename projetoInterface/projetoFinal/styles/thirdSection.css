@@ -1,0 +1,194 @@
+/* Seção onde assistir */
+.whereWatch {
+  margin-top: 100px;
+}
+
+.sanrioYoutube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sanrioYoutube h2 {
+  font-family: "vagRoundedBlack";
+  line-height: 1.2;
+  font-size: 32px;
+  color: rgb(2, 115, 217);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sanrioYoutube p {
+  font-family: "vagRoundedBold";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sanrioYoutube img {
+  width: 600px;
+  margin: auto;
+}
+
+.otherContents p {
+  font-family: "vagRoundedLight";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 30px;
+}
+.otherContents img {
+  width: 150px;
+  margin: 25px;
+}
+
+/* Seção de contato */
+
+.imgContactUs {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.helloKitty {
+  width: 150px;
+}
+.agrettsuko {
+  width: 100px;
+}
+
+.titleContactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleContactUs h2 {
+  text-align: center;
+  font-family: "vagRoundedBlack";
+  font-size: 32px;
+  line-height: 26px;
+  color: #0273d9;
+  position: relative;
+  bottom: 30px;
+}
+.titleContactUs p {
+  font-family: "vagRoundedBold";
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+.clientInformation {
+  display: flex;
+  flex-direction: row;
+}
+select,
+option {
+  background-color: #dcf2ff;
+  color: rgb(2, 113, 210);
+  font-family: "vagRoundedBold";
+  padding: 5px;
+  width: 100%;
+  height: 45px;
+  border: 1px solid #93c1f6;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin: 30px 10px;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="1" height="10" viewBox="0 0 20 20" fill="rgb(2, 113, 210)" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 20,0 10,10"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+input[type="email"] {
+  height: 45px;
+  background-color: #dcf2ff;
+  padding: 5px;
+  width: 400px;
+  border: 1px solid #93c1f6;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+input[type="text"] {
+  height: 45px;
+  background-color: #dcf2ff;
+  padding: 5px;
+  width: 400px;
+  border: 1px solid #93c1f6;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+input::placeholder {
+  color: rgb(2, 113, 210);
+  font-family: "vagRoundedBold";
+  font-size: 0.95rem;
+}
+textarea::placeholder {
+  padding: 7px;
+  color: rgb(2, 113, 210);
+  font-family: "vagRoundedBold";
+  font-size: 0.95rem;
+}
+textarea {
+  background-color: #dcf2ff;
+  border: 1px solid #93c1f6;
+  border-radius: 8px;
+  resize: vertical;
+  width: 100%;
+  height: 180px;
+}
+
+.form-group img {
+  width: 45px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+button[type="submit"] {
+  margin-top: 30px;
+  background-color: #0271d2;
+  border: none;
+  color: white;
+  font-family: "vagRoundedBold";
+  font-size: 16px;
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.otherContacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.otherContacts p {
+  margin-bottom: 30px;
+  font-family: "vagRoundedLight";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 600px;
+}

@@ -1,0 +1,241 @@
+@charset 'UTF-8';
+@font-face {
+  font-family: "vagRoundedBold";
+  src: url("../fonts/VAGRoundedStd-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "vagRoundedBlack";
+  src: url("../fonts/VAGRoundedStd-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "vagRoundedThin";
+  src: url("../fonts/VAGRoundedStd-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "vagRoundedLight";
+  src: url("../fonts/VAGRoundedStd-Light.otf");
+}
+
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+  background-color: #07c7ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logoSanrio {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* links redes sociais */
+.redeIconsWrapper {
+  margin-left: 400px;
+  margin-right: auto;
+  position: relative;
+  top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.redeIcons {
+  display: flex;
+  list-style-type: none;
+}
+.redeIconsWrapper p {
+  letter-spacing: 1.5px;
+  font-family: "vagRoundedBold", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.redeIcons li {
+  list-style-type: none;
+  flex-direction: row;
+  margin: 2px;
+}
+.redeIcons a {
+  text-decoration: none;
+  background-color: #0273d9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+/* Troca de idioma */
+.switchLanguage {
+  height: 30px;
+}
+.translate {
+  width: 90px;
+  background-color: white;
+  border: 2px solid #0273d9;
+  height: 30px;
+  position: relative;
+  left: 690px;
+  bottom: 32px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='rgb(2,113,210)' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 40px 10px center;
+  background-size: 12px;
+}
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.optionsTranslate {
+  background-color: white;
+}
+
+/* links da página */
+.links {
+  margin-bottom: 25px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  bottom: 7px;
+}
+
+.links > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.links li {
+  letter-spacing: 1px;
+  font-family: "vagRoundedBold";
+  list-style: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.links a {
+  letter-spacing: 1px;
+  font-family: "vagRoundedBold";
+  color: white;
+  text-decoration: none;
+}
+
+.dropDown2 {
+  display: none;
+  position: absolute;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #07c7ff;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropDown2 li {
+  padding: 10px;
+}
+.dropDown2 li:hover {
+  transition: 1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #5cd5fa;
+}
+.dropDown2 li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.wherebuy:hover .dropDown2 {
+  display: block;
+}
+
+/* Carrossel de imagens */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slides {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.slidesImages {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slidesImages img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.buttons {
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons ol {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.buttons li {
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #17C0FB;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons li.active {
+    background-color: #E00019;
+}
+
+.texto
+{
+    background-color: #E00019;
+}

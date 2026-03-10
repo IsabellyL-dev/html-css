@@ -1,0 +1,151 @@
+@charset 'UTF-8';
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #B78DF2;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    justify-content: flex-start;
+    color: white;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+nav li{
+    position: relative;
+}
+
+nav a{
+    color: #60a5cf;
+    font-family: "Leckerli One", cursive;
+    font-size: 20px;
+    text-decoration: none; 
+    padding: 14px 20px; 
+    display: block;
+    border-radius: 7px;
+    background-color: #EFD5F2;
+}
+
+nav a:hover{
+    background-color: #BBDDF2;
+    
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  border-radius: 0 0 7px 7px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+    display: none; 
+    color: #60a5cf;
+    padding: 12px 16px; 
+    display: block; 
+  }
+
+.dropdown-content a:hover {
+    background-color:#BBDDF2;
+  }
+
+nav li:hover .dropdown-content {
+    display: block;
+  }
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #EFD5F2;
+    border-radius: 5px;
+  }
+  
+.menu-toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: #6DBFF2;
+    margin: 2px 0;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    nav{
+      display: none; 
+      width: 100%; 
+      flex-direction: column; 
+      
+    }
+
+    nav.show {
+      display: flex; 
+    }
+
+    .menu-toggle {
+      display: flex; 
+    }
+
+    nav ul {
+      gap: 1px;
+      flex-direction: column;
+      width: 100%; 
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+        background-color: #EFD5F2;
+      }
+
+    .dropdown-content {
+      position: static; 
+    }
+  }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    background-color: #6DBFF2;
+    margin: 30px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: #B78DF2;
+    padding: 25px;
+    font-family: "Leckerli One", cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}

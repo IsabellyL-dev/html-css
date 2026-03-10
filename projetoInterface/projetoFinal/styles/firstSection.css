@@ -1,0 +1,171 @@
+.firstContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1500px;
+  margin: 20px auto;
+}
+
+.content {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 15px;
+  font-size: 14px;
+  font-family: "vagRoundedThin";
+  color: rgb(67, 74, 126);
+  letter-spacing: 2px;
+}
+.aboutSanrio h2 {
+  font-family: "vagRoundedBlack";
+  font-size: 32px;
+  text-align: center;
+  margin: 20px;
+  color: #07c7ff;
+}
+.oneWorld h2 {
+  font-weight: 650;
+  font-family: "Open Sans";
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #2e6ebe;
+}
+.oneWorld {
+  margin-bottom: 30px;
+}
+.hello-kitty-plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello-kitty-plan p {
+  font-family: "vagRoundedBold";
+  font-size: 22px;
+  text-align: center;
+  color: #df0521;
+}
+.hello-kitty-plan img {
+  margin-top: 40px;
+  width: 50%;
+  height: auto;
+}
+
+/* Seção das imagens */
+
+.sanrioParks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  left: 700px;
+  top: 60px;
+}
+.sanrioParks h2 {
+  font-family: "VagRoundedBold";
+  color: #df0521;
+  font-size: 25px;
+}
+.sanrioParks p {
+  line-height: 25px;
+  text-align: left;
+  font-family: "VagRoundedBold";
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(128, 128, 128);
+  font-weight: 100;
+}
+.sanrioParksImg {
+  width: 100%;
+  max-width: 1000px;
+}
+.SanrioPuroland {
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.LittleTwinStars {
+  width: 200px;
+  position: relative;
+  right: 900px;
+  bottom: 520px;
+}
+
+.sanrioStore {
+  display: flex;
+}
+.sanrioStoreTitle h2 {
+  font-family: "vagRoundedBold";
+  font-size: 25px;
+  line-height: 1.2;
+  color: #df0521;
+  width: 380px;
+  position: relative;
+  left: 70px;
+  top: 450px;
+  text-align: right;
+}
+.sanrioStoreImg {
+  position: relative;
+  left: 100px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.myMelody {
+  width: 120px;
+  position: relative;
+  right: 800px;
+  bottom: 340px;
+}
+
+.sanrioCafeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  top: 75px;
+  left: 75px;
+}
+.sanrioCafe h2 {
+  font-family: "vagRoundedBold";
+  color: #df0521;
+  width: 380px;
+}
+.sanrioCafe p {
+  font-family: "vagRoundedBold";
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  width: 300px;
+  position: relative;
+  right: 80px;
+}
+.helloKittyCafe {
+  position: relative;
+  right: 200px;
+  bottom: 200px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.kuromiImg {
+  width: 130px;
+  position: relative;
+  bottom: 600px;
+  right: 1010px;
+}
+.sanrioCafe {
+  position: relative;
+  left: 100px;
+}
